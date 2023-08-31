@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="main.css">
+    <title>Trilhas SC</title>
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">As Melhores trilhas de Santa Catarina</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex pt-1 pb-1">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-o-nos">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#beneficios">
+                            <i class="bi bi-hand-thumbs-up me-1"></i>
+                            Benefícios
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#trilhas">
+                            <i class="bi bi-graph-up-arrow me-1"></i>
+                            Trilhas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="Cachoeira da gurita">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="Pedra do gravatá">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="Vista da lagoinha do leste">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 pt-3">
+                            <img src="images/nos.jpg" class="d-block w-100 rounded" alt="Espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-4 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">Nós</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore soluta iure cum fuga placeat repellat vero rem? Velit nobis rem tenetur delectus minus obcaecati, aliquam consequatur non, consectetur laudantium ad!</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">as trilhas</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit quae, corporis odit quos explicabo sapiente veniam suscipit consequatur nostrum vero maiores nemo ipsa animi delectus, nisi et illum iusto?</p>
+                            <ul>
+                                <li>Trilha da costa da lagoa</li>
+                                <li>Trilha da Gurita</li>
+                                <li>Trilha da Lagoinha do leste</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="beneficios" class="m-3">
+            <div class="row">
+                <h2 class="section-title text-center mb-3">Para a <span class="text-colored">Saúde.</span></h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="images/eventos/atividadeFisica.jpg" alt="Bolo com velas acessas">
+                        <h3 class="section-title pt-2 text-colored fs-4">
+                            <i class="bi bi-universal-access"></i>
+                            Atividade física
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ut iusto officia sed repudiandae, optio, expedita labore quisquam sapiente nihil animi. Rem, exercitationem aliquam? Quibusdam distinctio illo vel cupiditate nam?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="images/eventos/ar.jpg" alt="">
+                        <h3 class="section-title pt-2 text-colored fs-4">
+                            <i class="bi bi-cloud-sun"></i>
+                            Ar Livre
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ut iusto officia sed repudiandae, optio, expedita labore quisquam sapiente nihil animi. Rem, exercitationem aliquam? Quibusdam distinctio illo vel cupiditate nam?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="images/eventos/nature.jpg" alt="">
+                        <h3 class="section-title pt-2 text-colored fs-4">
+                            <i class="bi bi-heart-pulse"></i>
+                            Natureza
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ut iusto officia sed repudiandae, optio, expedita labore quisquam sapiente nihil animi. Rem, exercitationem aliquam? Quibusdam distinctio illo vel cupiditate nam?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="trilhas" class="pt-3"pb-3>
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-3">Nossas <span class="text-colored">Trilhas</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#norte" class="fw-bold text-start nav-link text-colored active">Norte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sul" class="fw-bold text-start nav-link text-colored">Sul</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#leste" class="fw-bold text-start nav-link text-colored">Leste</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oeste" class="fw-bold text-start nav-link text-colored">Oeste</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="norte">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/norte1.jpg" alt="Lata de coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Ponta da Vigia</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti optio corporis tempore atque fugiat voluptas, dolor aliquid illo dicta reprehenderit sit asperiores delectus rem accusantium distinctio? Assumenda soluta ipsa tenetur!</p>
+                                    </div>                                   
+                                    <div class="col-md-3">    
+                                        <img class="d-block w-100" src="images/trilhas/norte2.jpg" alt="copo de suco"/>
+                                        <h5 class="text-colored fw-bold mt-2">Cachoeira da Praia Vermelha</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam quas rerum deserunt cum dolores, voluptatibus possimus nesciunt alias minus autem magni, sit explicabo suscipit ipsam enim natus doloribus voluptate.</p>
+                                    </div>                                     
+                                    <div class="col-md-3">    
+                                        <img class="d-block w-100" src="images/trilhas/norte3.jpg" alt="copo de suco"/>
+                                        <h5 class="text-colored fw-bold mt-2">Pico da Teta</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsam libero expedita ex. Saepe libero quo illo nesciunt tempora culpa, natus nisi est eius, excepturi ea voluptatibus reiciendis nobis autem.</p>
+                                    </div>                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/norte4.jpg" alt="Lata de coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Pico da Pedra</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia excepturi fuga nobis fugit ullam? Ut cupiditate fuga dolorum iure magnam perspiciatis natus recusandae iste sed nostrum. Itaque.</p>
+                                    </div>                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sul">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/sul1.1.jpg" alt="cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha do Farol</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque eveniet reiciendis, in saepe, tempore dolores ipsa quae consequatur laudantium tempora qui quasi repudiandae modi sequi. Dignissimos amet eius consequatur.</p>
+                                    </div>                                   
+                                    <div class="col-md-3">    
+                                        <img class="d-block w-100" src="images/trilhas/sul2.1.jpg" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha Praia Vermelha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque eveniet reiciendis, in saepe, tempore dolores ipsa quae consequatur laudantium tempora qui quasi repudiandae modi sequi. Dignissimos amet eius consequatur.</p>
+                                    </div>                                     
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/sul3.1.jpg" alt="cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha Morro de Itapirubá</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque eveniet reiciendis, in saepe, tempore dolores ipsa quae consequatur laudantium tempora qui quasi repudiandae modi sequi. Dignissimos amet eius consequatur.</p>
+                                    </div>                                   
+                                    <div class="col-md-3">    
+                                        <img class="d-block w-100" src="images/trilhas/sul4.1.jpg" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha Praia do Gravatá</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque eveniet reiciendis, in saepe, tempore dolores ipsa quae consequatur laudantium tempora qui quasi repudiandae modi sequi. Dignissimos amet eius consequatur.</p>
+                                    </div>                      
+                                </div>
+                            </div>                            
+                            <div class="tab-pane" id="leste">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/leste1.jpg" alt="pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha do morro do Cambirela</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto maiores labore provident fuga, qui vero? Voluptatum, provident repellendus! Ut quidem earum tempore ullam maiores ea? Quisquam beatae ratione quidem nisi?.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/leste2.jpg" alt="salmao"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha da Boa Vista e Galheta</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est earum non distinctio quisquam repudiandae aperiam repellat recusandae cum sint, illo, iusto, dolores ipsa sapiente quidem! Tempore unde cumque eos eum?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/leste3.jpg" alt="pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha Caminho da Gurita</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, ducimus nobis voluptatibus ipsum culpa laudantium neque, incidunt quisquam ut corporis laborum, amet tempora sint eveniet nesciunt alias fuga quas doloremque!</p>
+                                    </div>                                   
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/leste4.jpeg" alt="salmao"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha de Naufragados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam deleniti porro explicabo aperiam aliquid sapiente rem adipisci dicta eius accusamus dolores accusantium ab assumenda perferendis, incidunt fugiat corrupti? Dolorum.</p>
+                                    </div>               
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oeste">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/oeste1.jpg" alt="bolo"/>
+                                        <h5 class="text-colored fw-bold mt-2">cascata do spredemann</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ut temporibus odit eveniet animi sequi voluptatum possimus accusantium exercitationem maiores aspernatur culpa placeat, nam accusamus ex non, corrupti vel porro!</p>
+                                    </div>                                   
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/oeste2.jpg" alt="cupcake"/>
+                                        <h5 class="text-colored fw-bold mt-2">Caminhos do Vale</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe velit nam rerum voluptatem, culpa voluptates repellat iure. Distinctio voluptate asperiores rem sapiente, necessitatibus consectetur esse cupiditate suscipit doloribus nam illum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/trilhas/oeste3.1.jpg" alt="bolo"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trilha Ecológica Videira</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, necessitatibus? Saepe natus adipisci eius omnis culpa dolorem iusto similique praesentium fugit quaerat, eum reiciendis autem consequatur tempore! Minus, doloremque quos?</p>
+                                    </div>                                   
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images//trilhas/oeste4.1.jpg" alt="cupcake"/>
+                                        <h5 class="text-colored fw-bold mt-2">Parque das Trilhas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat nesciunt aliquam deserunt, fugit dignissimos odit sit ad tenetur et officiis, magnam iusto explicabo qui officia! Quod distinctio natus sunt.</p>
+                                    </div>               
+                                </div>
+                            </div>                   
+                        </div>    
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section id="fale-conosco" class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h2>Fale <span class="text-colored">Conosco</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-4">
+                                    <label for="nome" class="fw-bold text-colored form-label">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" required placeholder="Digite seu nome">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="telefone" class="fw-bold text-colored form-label">Telefone(opcional):</label>
+                                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="fw-bold text-colored form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" required placeholder="Digite seu email">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="nome" class="fw-bold text-colored form-label">Digite sua mensagem:</label>
+                                    <textarea id="mensagem" class="form-control" required placeholder="Digite sua mensagem"></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="text-colored fs-4 section-title">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes Sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-4">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-4 ms-2 me-2">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-4">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="text-colored fs-4 section-title">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p>Rua bootstrap dos Anjos, nº 1501, Palhoça - SC</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
